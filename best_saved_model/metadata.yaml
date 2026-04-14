@@ -1,0 +1,126 @@
+description: Ultralytics best model trained on /kaggle/working/Traffic-Sign-Detection-1/data.yaml
+author: Ultralytics
+date: '2026-04-10T23:25:53.677566'
+version: 8.4.14
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Danger Ahead
+  1: Give Way
+  2: Go Left or Straight
+  3: Go Straight
+  4: Go_Straight
+  5: Huddle Road
+  6: Left Sharp Curve
+  7: NO OVERTAKING
+  8: No Entry
+  9: No Over Taking Trucks
+  10: No Stopping
+  11: No Waiting
+  12: No_Opposite
+  13: Pedestrian
+  14: Right Sharp Curve
+  15: RoundAbout
+  16: Round_Right
+  17: Speed Limit 120KM
+  18: Speed Limit 20
+  19: Speed Limit 30
+  20: Speed Limit 30KM
+  21: Speed Limit 50
+  22: Speed Limit 50KM
+  23: Speed Limit 60
+  24: Speed Limit 60KM
+  25: Speed Limit 70
+  26: Speed Limit 70KM
+  27: Speed Limit 80KM
+  28: Stop
+  29: Truck Sign
+  30: Turn Left
+  31: Turn Right
+  32: bicycle
+  33: broken_white_line
+  34: bus_stop
+  35: children
+  36: continuous_white_line
+  37: crossing
+  38: crosswalk
+  39: do_not_enter
+  40: do_not_stop
+  41: do_not_turn_l
+  42: do_not_turn_left
+  43: do_not_turn_r
+  44: do_not_turn_right
+  45: do_not_u_turn
+  46: double_yellow_line
+  47: enter_left_lane
+  48: give_way
+  49: green_light
+  50: lanes_merging
+  51: left_lane_enter
+  52: left_right_lane
+  53: left_sharp_curve
+  54: left_turn
+  55: light_green
+  56: light_red
+  57: light_traffic
+  58: light_yellow
+  59: narrow_road
+  60: no_entry
+  61: no_left_turn
+  62: no_overtaking
+  63: no_overtaking_truck
+  64: no_parking
+  65: no_passing
+  66: no_right_turn
+  67: no_stop
+  68: no_waiting
+  69: parking
+  70: ped_crossing
+  71: ped_zebra_cross
+  72: pedestrain_crossing_prohibition
+  73: railway_crossing
+  74: red_light
+  75: refueling
+  76: right_sharp_curve
+  77: right_turn
+  78: road_main
+  79: road_rough
+  80: road_slippery
+  81: road_work
+  82: rough_road
+  83: round_about
+  84: school_nearby
+  85: snow_warning
+  86: speed_bump
+  87: speed_limit_100
+  88: speed_limit_120
+  89: speed_limit_20
+  90: speed_limit_30
+  91: speed_limit_40
+  92: speed_limit_50
+  93: speed_limit_60
+  94: speed_limit_70
+  95: speed_limit_80
+  96: stop
+  97: t_intersection_l
+  98: traffic_light
+  99: truck
+  100: u-turn_ahead
+  101: u_turn
+  102: warning
+  103: yellow_box
+  104: yellow_light
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: true
+  nms: false
+channels: 3
+end2end: false
